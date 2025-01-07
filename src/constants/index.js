@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -24,6 +25,7 @@ import {
     springBoot,
     mysql,
     todo,
+    where2stay,
 } from "../assets";
 
 export const navLinks = [
@@ -132,6 +134,35 @@ const testimonials = [
 
 const projects = [
     {
+        name: "Where-2-Stay",
+        description: "Explore the fully functional hotel booking application. Search for hotels, manage bookings, and experience a seamless Stripe-integrated payment process.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "spring-boot",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "postgreSQL",
+                color: "blue-text-gradient"
+            },
+            {
+                name: "stripe",
+                color: "pink-text-gradient"
+            }
+        ],
+        image: where2stay,
+        source_code_link: "https://github.com/nishkarsh9889/Where2Stay",
+        project_live_link: "https://where-2-stay.vercel.app/"
+    },
+    {
         name: "Cake Bake",
         description:
             "Web-based platform that allows users to browse, filter, and order products based on categories. Users can register or log in using the built-in authentication system or via Google OAuth2.",
@@ -174,23 +205,6 @@ const projects = [
         image: gemini,
         source_code_link: "https://github.com/nishkarsh9889/Gemini-Clone",
         project_live_link: "https://gemini-clone-9fygxjq1v-singhchiku9889-gmailcoms-projects.vercel.app/"
-    },
-    {
-        name: "Todo App",
-        description: "A simple todo app built with React.js and Tailwind CSS, featuring task management with add, delete, and mark as completed functionality. It uses local storage to persist tasks even after a page reload, ensuring data stays intact unless deleted.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "green-text-gradient",
-            },
-        ],
-        image: todo,
-        source_code_link: "https://github.com/nishkarsh9889/Todo-App",
-        project_live_link: "https://todo-app-singhchiku9889-gmailcoms-projects.vercel.app/"
     }
 ];
 

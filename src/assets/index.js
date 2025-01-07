@@ -31,6 +31,7 @@ import tripguide from "./tripguide.png";
 import cakebake from "./cakebake.png"
 import gemini from "./gemini.png"
 import todo from "./todo.png";
+import where2stay from "./where2stay.png"
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   tripguide,
   mysql,
   todo,
+  where2stay,
 };
